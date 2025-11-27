@@ -37,22 +37,5 @@ let numero = 7;
 
 for(i = 1; i <= 10; i++) {
     let resultado = numero * i;
-    // console.log(numero + ' x ' + i + ' = ' + resultado);
+    console.log(numero + ' x ' + i + ' = ' + resultado);
 }
-
-// 4️ Somar todos os números de 1 a 100
-
-// Use um for e uma variável acumuladora:
-
-// let soma = 0;
-
-
-// No final, mostre o valor total da soma.
-
-let soma = 0;
-
-for (let i = 1; i <= 100; i++) {
-    soma = soma + i;
-}
-
-console.log("Soma total: " + soma);
